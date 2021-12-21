@@ -30,7 +30,8 @@ import IndexInscripciones from 'pages/inscripciones';
 // import PrivateRoute from 'components/PrivateRoute';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5001/graphql',
+  // uri: 'http://localhost:5001/graphql',
+  uri: 'https://api-ciclo4.herokuapp.com/graphqll',
 });
 
 const authLink = setContext((_, { headers }) => {
